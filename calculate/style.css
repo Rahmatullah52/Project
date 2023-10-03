@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+#main{
+    width: 55%;
+    height: 200%;
+    margin: 30px auto;
+    margin-left: 380px;
+    max-width: 500px;
+    max-height: 800px; 
+    
+}
+#display{
+    background-color: #444;
+    font-size: 45px;
+    padding: 9px;
+    text-align: right;
+    color: white;
+    
+}
+#button span{
+    width: 23%;
+    height: 55px;
+    float: left;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    font-size: 32px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    background-color: #ccc;
+    user-select: none;
+    -moz-user-select: none;
+    -moz-user-select: none;
+}
+#button span:hover{
+    background-color: #68a;
+}
+#button .btn-number{
+    background-color: #ea8;
+}
